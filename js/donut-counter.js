@@ -1,6 +1,17 @@
 //JS Donut Counter Lab
 
 //declare 2 variables one for guests and one for donuts
+
+
+var myGuests = parseInt(prompt("How many guests do you have?"))
+
+var myDonuts = parseInt(prompt("How many donuts do you have?"))
+
+if (myGuests > myDonuts) {
+	alert("You have " + myGuests + " guests. You have " + myDonuts + " donuts. You do not have enough donuts!")
+} else {
+	alert("You have " + myGuests + " guests. You have " + myDonuts + " donuts. You have enough donuts!")
+}
 //use prompt method to bring up a dialog box in the browser for the user to insert the number of guests and donuts.
 //use parseInt to convert the users answer from a string to an integer.
 
